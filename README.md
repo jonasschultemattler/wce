@@ -14,12 +14,20 @@ Datasets [cite]
 Cactus-plot for comparison with Gurobi and KIT-Solver
 
 ## Getting started:
-1. Docker...
-2. clone repo
-3. Download datasets...
-4. Setup python
-5. Setup gurobi
-6. Run exact solver
+1. Install Docker
+2. clone repo and cd into it
+```bash
+    git clone https://github.com/jonasschultemattler/wce
+    cd wce
+    ```
+3. Build the Docker image:
+```bash
+    docker build -f docker/Dockerfile -t wce .
+    ```
+4. Download datasets...
+5. Setup python
+6. Setup gurobi
+7. Run exact solver
 
 ## Heuristics
 plots
