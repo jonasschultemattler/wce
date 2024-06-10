@@ -17,13 +17,13 @@ Cactus-plot for comparison with Gurobi and KIT-Solver
 1. Install Docker
 2. clone repo and cd into it
 ```bash
-    git clone https://github.com/jonasschultemattler/wce
-    cd wce
-    ```
+git clone https://github.com/jonasschultemattler/wce
+cd wce
+```
 3. Build the Docker image:
 ```bash
-    docker build -f docker/Dockerfile -t wce .
-    ```
+docker build -f docker/Dockerfile -t wce .
+```
 4. Download datasets...
 5. Setup python
 6. Setup gurobi
