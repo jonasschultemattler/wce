@@ -24,10 +24,17 @@ cd wce
 ```bash
 docker build -f docker/Dockerfile -t wce .
 ```
-4. Download datasets...
-5. Setup python
-6. Setup gurobi
-7. Run exact solver
+4. Setup datasets
+```bash
+git clone https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances
+cd data && ./setup.sh
+```
+or download
+```bash
+wget https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz && tar -xf exact.tar.gz
+```
+5. Setup gurobi
+6. Run exact solver
 
 ## Heuristics
 plots
