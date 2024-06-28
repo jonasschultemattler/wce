@@ -16,19 +16,23 @@ todo: plots with solution quality and running times
 - "Heavy Edge Both Ends"
 - "Large Neighborhood"
 
-todo: plots with impact of reduction rules and running times
+todo: plots with impact of reduction rules on instance size and respective running times
 
 ## Lower Bounds
 - LP-Relaxation solved by Gurobi
 
+todo: plot lb/optimum
+
 ## Benchmarks
 Datasets: random, real-world [cite]
 
-Cactus-plot for comparison with Gurobi
+Performance Comparison with Gurobi
+
+![Cactus plot showing performance of solver and gurobi.](imgs/solver_vs_gurobi.png)
 
 ## Getting started
 1. Install Docker
-2. clone repo and cd into it
+2. Clone repo and cd into it
 ```bash
 git clone https://github.com/jonasschultemattler/wce
 cd wce
