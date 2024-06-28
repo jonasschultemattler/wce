@@ -3,17 +3,19 @@
 This package provides an exact solver for the Weighted Cluster Editing Problem.
 It implements the branch-and-bound algorithm by cite and features:
 ## Heuristics
-- "Randomized Approximation"
+- Randomized Approximation: ...
 - Greedy-Algorithm by cite
 - Local Search refinement, see ...
+
 todo: plots with solution quality and running times
 
 ## Data Reductions
-- "High Cost Edge" Merge too expensive edges
+- "High Cost Edge": Merge too expensive edges
 - "Heavy Non Edge" 
 - "Heavy Edge Sinlge End" 
 - "Heavy Edge Both Ends"
 - "Large Neighborhood"
+
 todo: plots with impact of reduction rules and running times
 
 ## Lower Bounds
