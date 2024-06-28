@@ -1,17 +1,17 @@
 # Weighted Cluster Editing
 
-This package provides an implementation of a branch-and-bound algorithm [cite] for the Weighted Cluster Editing Problem.
-It features implementations of
-upper bounds:
+This package provides an exact solver for the Weighted Cluster Editing Problem.
+It implements the branch-and-bound algorithm by cite and features implementations of
+## Heuristics
 ...
-lower bounds:
+## Data Reductions
 ...
-data reduction rules:
+## Lower Bounds
 ...
 
 ## Benchmarks:
 Datasets [cite]
-Cactus-plot for comparison with Gurobi and KIT-Solver
+Cactus-plot for comparison with Gurobi
 
 ## Getting started:
 1. Install Docker
@@ -36,9 +36,3 @@ wget https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz && tar -xf exact.tar.gz
 5. Setup gurobi
 6. Run exact solver
 
-## Heuristics
-plots
-## Data Reductions
-plots
-## Lower Bounds
-plots
