@@ -21,11 +21,11 @@ todo: plots with impact of reduction rules and running times
 ## Lower Bounds
 - LP-Relaxation solved by Gurobi
 
-## Benchmarks:
+## Benchmarks
 Datasets [cite]
 Cactus-plot for comparison with Gurobi
 
-## Getting started:
+## Getting started
 1. Install Docker
 2. clone repo and cd into it
 ```bash
