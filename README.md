@@ -1,16 +1,16 @@
 # Weighted Cluster Editing
 
 This package provides an exact solver for the Weighted Cluster Editing Problem.
-It implements the branch-and-bound algorithm by cite and features:
+It implements the branch-and-bound algorithm by [Böcker et al.](https://www.sciencedirect.com/science/article/pii/S0304397509003521) and features:
 ## Heuristics
-- Randomized Approximation: ...
-- Greedy-Algorithm by cite
-- Local Search refinement, see ...
+- Greedy-Algorithm by [Rahmann et al.](https://pub.uni-bielefeld.de/record/2499481)
+- Randomized Approximation
+- Local Search
 
 todo: plots with solution quality and running times
 
 ## Data Reduction Rules
-- "High Cost Edge": Merge too expensive edges
+- "Heavy Edge": Merge too expensive edges' vertices
 - "Heavy Non Edge" 
 - "Heavy Edge Sinlge End" 
 - "Heavy Edge Both Ends"
@@ -22,7 +22,8 @@ todo: plots with impact of reduction rules and running times
 - LP-Relaxation solved by Gurobi
 
 ## Benchmarks
-Datasets [cite]
+Datasets: random, real-world [cite]
+
 Cactus-plot for comparison with Gurobi
 
 ## Getting started
