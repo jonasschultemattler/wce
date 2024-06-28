@@ -1,13 +1,23 @@
 # Weighted Cluster Editing
 
 This package provides an exact solver for the Weighted Cluster Editing Problem.
-It implements the branch-and-bound algorithm by cite and features implementations of
+It implements the branch-and-bound algorithm by cite and features:
 ## Heuristics
-...
+- "Randomized Approximation"
+- Greedy-Algorithm by cite
+- Local Search refinement, see ...
+todo: plots with solution quality and running times
+
 ## Data Reductions
-...
+- "High Cost Edge" Merge too expensive edges
+- "Heavy Non Edge" 
+- "Heavy Edge Sinlge End" 
+- "Heavy Edge Both Ends"
+- "Large Neighborhood"
+todo: plots with impact of reduction rules and running times
+
 ## Lower Bounds
-...
+- LP-Relaxation solved by Gurobi
 
 ## Benchmarks:
 Datasets [cite]
@@ -24,15 +34,10 @@ cd wce
 ```bash
 docker build -f docker/Dockerfile -t wce .
 ```
-4. Setup datasets
-```bash
-git clone https://github.com/PACE-challenge/Cluster-Editing-PACE-2021-instances
-cd data && ./setup.sh
-```
-or download
+4. Download datasets
 ```bash
 wget https://fpt.akt.tu-berlin.de/pace2021/exact.tar.gz && tar -xf exact.tar.gz
 ```
 5. Setup gurobi
-6. Run exact solver
+6. Run solver
 
