@@ -28,7 +28,8 @@ Datasets: random, real-world [cite]
 
 Performance Comparison with Gurobi
 
-![Cactus plot showing performance of solver and gurobi.](imgs/solver_vs_gurobi.png)
+<!-- ![Cactus plot showing performance of solver and gurobi.](imgs/solver_vs_gurobi.png) -->
+<img src="imgs/solver_vs_gurobi.png" width=75% alt="Cactus plot showing performance of solver and gurobi.">
 
 ## Getting started
 1. Install Docker
