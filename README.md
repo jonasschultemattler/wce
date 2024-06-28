@@ -9,7 +9,7 @@ It implements the branch-and-bound algorithm by cite and features:
 
 todo: plots with solution quality and running times
 
-## Data Reductions
+## Data Reduction Rules
 - "High Cost Edge": Merge too expensive edges
 - "Heavy Non Edge" 
 - "Heavy Edge Sinlge End" 
