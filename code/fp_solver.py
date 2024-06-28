@@ -3,7 +3,7 @@ import copy
 import heapq
 
 from heuristic import Greedy, upper_bound
-from graph_test import Graph
+from graph import Graph
 from ilp_solver import LPSolver
 import reductionrules as rr
 
