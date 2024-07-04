@@ -51,6 +51,14 @@ def high_weight_exhaustive(graph, edges, k):
 	# 	too_expensive_edges = graph.too_expensive_edges(k-d)
 	# return merged, d
 
+
+def heavy_non_edge_exhaustive(graph):
+	edges = heavy_non_edge(graph)
+	for u, v in edges:
+		graph.weights[u][v] -= 65535
+		graph.weights[v][u] -= 65535
+		graph.del_edge(u, v)
+
 def heavy_non_edge(graph):
 	edges = []
 	for u, v in graph.get_edges():
